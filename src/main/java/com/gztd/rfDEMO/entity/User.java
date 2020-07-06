@@ -1,4 +1,4 @@
-package cn.gztd.rfDEMO.entity;
+package com.gztd.rfDEMO.entity;
 
 public class User {
 	

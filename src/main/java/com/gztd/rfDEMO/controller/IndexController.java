@@ -1,20 +1,18 @@
-package cn.gztd.rfDEMO.controller;
+package com.gztd.rfDEMO.controller;
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.Writer;
 import java.util.List;
 import java.util.Map;
 import javax.annotation.Resource;
+
+import com.gztd.rfDEMO.entity.Notice;
+import com.gztd.rfDEMO.entity.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import cn.gztd.rfDEMO.entity.Message;
-import cn.gztd.rfDEMO.entity.Notice;
-import cn.gztd.rfDEMO.entity.User;
+import com.gztd.rfDEMO.entity.Message;
 
 @RestController
 @RequestMapping("/gztc")

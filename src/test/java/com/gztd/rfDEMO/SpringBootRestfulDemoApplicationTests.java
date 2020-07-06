@@ -1,4 +1,4 @@
-package cn.gztd.rfDEMO;
+package com.gztd.rfDEMO;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
